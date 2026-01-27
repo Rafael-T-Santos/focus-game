@@ -1,0 +1,50 @@
+body {
+    width: 300px;
+    background-color: #222;
+    color: #fff;
+    font-family: 'Courier New', monospace;
+    text-align: center;
+    padding: 10px;
+}
+
+.sprite-container {
+    margin: 20px auto;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 80px;
+    image-rendering: pixelated; /* Mantém o pixel art nítido */
+    opacity: 0.5; /* Começa "dormindo" ou inativo */
+    transition: opacity 0.3s;
+}
+
+.active img {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+progress {
+    width: 100%;
+    height: 20px;
+    accent-color: #4caf50;
+}
+
+button {
+    background: #ff9800;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: inherit;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #f57c00;
+}
