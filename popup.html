@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h3>Nível <span id="level">1</span></h3>
+        
+        <div class="sprite-container">
+            <img id="char-sprite" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3Z0ZnZ0ZnZ0ZnZ0ZnZ0ZnZ0ZnZ0ZnZ0ZnZ0ZnZ0ZnZ0ZnZ0ZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/L3Bj6t3opbcRXcwMgc/giphy.gif" alt="Personagem">
+        </div>
+
+        <div class="stats">
+            <label>XP: <span id="xp-count">0</span> / 100</label>
+            <progress id="xp-bar" value="0" max="100"></progress>
+        </div>
+
+        <button id="btn-action">Iniciar Foco</button>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
